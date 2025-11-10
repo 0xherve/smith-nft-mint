@@ -2,6 +2,7 @@
 
 This is a repository for creating the `Red Hammer NFT`.
 
+
 ## Project Layout
 
 The NFT mint script is in the `index.ts` file.
@@ -11,6 +12,7 @@ The Metadata Object is implemented in the `metadata.ts` file.
 The code was written following the `How to Create a Core Asset with Javascript` guide in the Metaplex Core documentation.
 
 The NFT is minted with the `ts-node index.ts` command.
+
 
 ## Lessons
 
@@ -22,6 +24,7 @@ There are 3 major challenges regarding the trading of minted NFTs, namely:
 
 3. The trading of NFTs is done with no guarantee that the other party will honor their end of the bargain.
 
+
 ## Solution: P2P Marketplace Platform 
 
 I would propose a Peer-to-Peer platform for people to list NFTs at their desired price of exchange.
@@ -31,6 +34,7 @@ I would propose a Peer-to-Peer platform for people to list NFTs at their desired
 1. **NFT Listing**: Allowing sellers to have a single place to showcase their NFTs and attract buyers. 
 2. **Discovery**: Sellers can find buyers easily, and buyers are able to find multiple sellers for collectibles.
 3. **Instant Transaction after payment**: Automated escrow that holds the listed NFT and sends it to the buyer when the payment is confirmed, allowing for trustless online asset trades.
+
 
 ## NFT mint details
 
